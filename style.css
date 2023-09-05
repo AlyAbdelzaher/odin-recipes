@@ -1,0 +1,85 @@
+* {
+    background-color: #fff;    /*#DAD4B5 */
+    color: rgba(0,0,0,.95);     /* #952323 */
+    font-size: 1.1rem;
+}
+
+h1,
+h2 {
+    color: #d54215;     /*   #A73121   */
+    text-align: center;    
+}
+
+img {
+    text-align: center;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+/* colors: #435334 
+*/
+
+.center {
+    text-align: center;
+}
+
+img {
+    text-align: center;
+    border: 5px solid #d54215;
+    display: flex;
+    align-self: center;
+}
+
+.items {
+    font-weight: bold;
+    font-size: large;
+    margin: 0px;
+}
+
+.steak,
+.strawberry-pie,
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.desc {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d54215;
+}
+
+.return {
+    text-align: center;
+}
+
+.divider {
+    width: 300px;
+    height: 0px;
+    margin: 7px auto;
+    border: 2px solid rgba(0,0,0,.95);
+}
+
+.return {
+    color: #d54215;
+    font-size: 30px;
+}
+
+h1 a {
+    font-size: 2rem;
+}
+
+strong {
+    color:#d54215;
+}
